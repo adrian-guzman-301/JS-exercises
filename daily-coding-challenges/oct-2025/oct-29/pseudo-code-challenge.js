@@ -16,3 +16,12 @@ Notes: Don't forget to return the result and check for edge cases!
     //step 1: declare function named addition with two parameters, x and y
     //step 2: declare sum variable, assigning 'x + y' to the sum variable
     //step 3: return sum variable
+
+function addition(x, y) {
+    sum = x + y
+    return sum
+}
+console.log(addition(2,2))
+console.log(addition(1,8))
+console.log(addition(2,78))
+console.log(addition(100,100))
