@@ -106,3 +106,4 @@ function boboRemovesString(arrayOfStrings, stringItem) {
 }
 console.log(boboRemovesString(['paw', 'shu', 'adrian'], 'paw'));
 
+kmkl
