@@ -1,1 +1,2 @@
 # JS-exercises
+ readme
