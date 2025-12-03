@@ -67,7 +67,7 @@ class Leader extends Soldier {
   }
 }
 
-let Hoffman = new Soldier (
+let Hoffman = new Leader (
   'Hoffman',
   'COG',
   null,
@@ -75,3 +75,30 @@ let Hoffman = new Soldier (
   true,
 )
 console.log(Hoffman)
+
+/*
+class Weapon {
+  constructor(name, faction, ammoCapacity, ammoLeft, ammoType, execution) {
+    this.name = name;
+    this.faction = faction;
+    this.ammoCapacity = ammoCapacity;
+    this.ammoLeft = ammoLeft;
+    this.ammoType = ammoType;
+    this.execution = execution;
+  }
+}
+*/
+
+let hammerOfDawn = new Weapon (
+  'Hammer of Dawn',
+  'COG',
+  null,
+  null,
+  `uses an orbital beam`,
+  'knee to the face'
+)
+hammerOfDawn.ammoType = `${hammerOfDawn.name} uses an orbital beam.`
+console.log(hammerOfDawn.ammoType)
+console.log(hammerOfDawn)
+
+console.log(Hoffman instanceof Leader)
