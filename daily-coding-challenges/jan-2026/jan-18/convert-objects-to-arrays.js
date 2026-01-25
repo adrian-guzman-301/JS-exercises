@@ -17,3 +17,6 @@ function toArray(obj) {
 console.log(toArray({ a: 1, b: 2 }))
 console.log(toArray({ shrimp: 15, tots: 12 }))
 console.log(toArray({}))
+
+//filter out strings from an array
+
