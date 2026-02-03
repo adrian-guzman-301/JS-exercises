@@ -1,8 +1,9 @@
 import axios from 'axios'
+import { useEffect } from 'react'
 
-function GetCatData() {
+function CatFetcher() {
   const catApiKey = `live_HYVSzYzBiw4S0N8SR16GMirqG9tzlaH1bIXlvzWGNBy2ekLcgMnYtbmwE1lA1UOn`
-  const randomImageUrl = `https://hatrabbits.com/en/random-image/`
+  const randomImageUrl = `https://cdn2.thecatapi.com/images/MTg3NzAxMA.jpg`
 
   useEffect(() => {
     const getRandomCatImage = async () => {
@@ -22,4 +23,4 @@ function GetCatData() {
   )
 }
 
-export default GetCatData
+export default CatFetcher
