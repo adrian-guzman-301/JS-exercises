@@ -1,7 +1,8 @@
 import { useState } from 'react'
-
+import axios from 'axios'
 import './App.css'
 import ChildComponent from './ChildComponent.jsx'
+import GetCatData from './CatFetcher.jsx'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       day={currentDayName}
       message={threateningMessage}
       />
+      <GetCatData />
     </>
   )
 }
