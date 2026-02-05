@@ -10,14 +10,18 @@ function App() {
   const today = new Date()
   const currentDayName = daysOfWeek[today.getDay()]
   const threateningMessage = 'do not ever be alone'
+  const handleAction = () => {
+  console.log("clicked") }
 
   return (
     <>
       <ChildComponent 
       day={currentDayName}
       message={threateningMessage}
+      iceCream={handleAction}
       />
-      <CatFetcher />
+      <CatFetcher 
+      />
     </>
   )
 }

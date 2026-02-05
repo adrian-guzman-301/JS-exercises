@@ -1,10 +1,10 @@
-function ChildComponent({ day, message }) {
+function ChildComponent({ day, message, iceCream }) {
 
   return (
     <>
       <h1>hello, world!</h1>
       <p>today is { day }</p>
-      <button>click me!</button>
+      <button onClick={iceCream}>click me!</button>
       <p>{ message }</p>
     </>
   )
